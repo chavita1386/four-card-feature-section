@@ -75,7 +75,13 @@ body {
     height: auto;
     align-self: flex-end; }
 
-.test {
-  color: blue; }
+.footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #a3a5ae; }
+  .footer__link {
+    color: #4c4e61; }
+    .footer__link:hover {
+      opacity: 0.9; }
 
 /*# sourceMappingURL=styles.css.map */

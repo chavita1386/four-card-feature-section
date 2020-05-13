@@ -1,0 +1,12 @@
+.footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: $grayishBlue;
+  &__link {
+    color: $veryDarkBlue;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
