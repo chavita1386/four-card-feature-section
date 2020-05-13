@@ -1,0 +1,81 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+  margin: 0; }
+
+.wrapper {
+  padding: 0 2rem; }
+  @media screen and (min-width: 900px) {
+    .wrapper--card {
+      width: 70%;
+      display: flex;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center; } }
+
+.header {
+  color: #a3a5ae;
+  text-align: center;
+  margin: 4.5rem 0 4.5rem; }
+  .header-title {
+    font-size: 1.46rem;
+    color: #a3a5ae;
+    font-weight: 200;
+    margin: 0.5rem 0; }
+    @media screen and (min-width: 900px) {
+      .header-title {
+        font-size: 2rem; } }
+  .header-title--strong {
+    font-size: 1.47rem;
+    font-weight: 600;
+    color: #4c4e61; }
+    @media screen and (min-width: 900px) {
+      .header-title--strong {
+        font-size: 2rem; } }
+  .header-caption {
+    font-size: 0.92rem;
+    padding: 0 0.45rem; }
+    @media screen and (min-width: 900px) {
+      .header-caption {
+        max-width: 490px;
+        margin: 0 auto; } }
+
+.card {
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+  border-radius: 4px;
+  box-shadow: 0px 10px 8px 0px rgba(163, 165, 174, 0.2); }
+  @media screen and (min-width: 900px) {
+    .card {
+      max-width: 280px;
+      margin: 2.5rem 1rem;
+      padding: 1rem 2rem; } }
+  .card--supervisor {
+    border-top: 3px solid #45d3d3; }
+  .card--team-builder {
+    border-top: 3px solid #ea5353; }
+  .card--karma {
+    border-top: 3px solid #fcaf4a; }
+  .card--calculator {
+    border-top: 3px solid #549ef2; }
+  .card__title {
+    color: #4c4e61;
+    margin: 0.5rem 0 0; }
+  .card__caption {
+    color: #a3a5ae;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin: 0.4rem 0 1.5rem 0; }
+  .card__icon {
+    margin: 1rem 0;
+    width: 56px;
+    height: auto;
+    align-self: flex-end; }
+
+.test {
+  color: blue; }
+
+/*# sourceMappingURL=styles.css.map */

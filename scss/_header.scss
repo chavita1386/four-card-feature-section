@@ -1,0 +1,32 @@
+.header {
+  color: $grayishBlue;
+  text-align: center;
+  margin: 4.5rem 0 4.5rem;
+  &-title {
+    font-size: 1.46rem;
+    color: $grayishBlue;
+    font-weight: 200;
+    margin: 0.5rem 0;
+    @media screen and (min-width: 900px) {
+      font-size: 2rem;
+    }
+  }
+
+  &-title--strong {
+    font-size: 1.47rem;
+    font-weight: 600;
+    color: $veryDarkBlue;
+    @media screen and (min-width: 900px) {
+      font-size: 2rem;
+    }
+  }
+
+  &-caption {
+    font-size: 0.92rem;
+    padding: 0 0.45rem;
+    @media screen and (min-width: 900px) {
+      max-width: 490px;
+      margin: 0 auto;
+    }
+  }
+}
